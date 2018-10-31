@@ -1,0 +1,158 @@
+html{
+	font-family: "Raleway";
+	font-size: 8px;
+}
+
+.mobile{
+	display: none;
+}
+
+/* Header */
+.header{
+	height: 8rem;
+	width: 100%;
+	text-align: center;
+}
+
+.header .computer-head{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0.25rem 3rem;
+}
+
+.header .logo{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	
+}
+.header .logo p{
+	color: hsl(177, 0%, 61%);
+	font-size: 4rem;
+}
+
+.header .logo img{
+	height: 6rem;
+}
+
+.header .logo em{
+	font-weight: 600;
+	color: hsl(177, 0%, 12%);
+}
+
+.header .computer-head nav{
+	display: flex;
+	flex-direction: row;
+	font-size: 2.5rem;
+}
+
+.header .computer-head nav a{
+	padding-left: 2rem;
+	text-decoration: none;
+	color: hsl(177, 0%, 12%);
+}
+
+/*Header Mobile Version*/
+@media only screen and (max-width: 1024px){
+	#computer-head{
+		display: none;
+	}
+
+	.head{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		margin: 2rem 0;
+	}
+
+	.head img{
+		height: 5rem;
+	}
+}
+
+/* Banner */
+
+.banner{
+	background-color: hsl(177, 0%, 81%);
+
+	display: flex;
+	flex-direction: row;
+}
+
+.banner .photo img{	
+	width: 90%;
+	padding: 4rem 3rem;
+	display: flex;
+	justify-content: center;
+}
+
+.banner .text1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 3rem;
+	margin-right: 15rem;
+	color: hsl(177, 0%, 24%);
+}
+
+.name /* h1 */ {
+	font-weight: 800;
+	font-size: 6rem;
+	padding-bottom: 4rem;
+}
+
+.banner .text1 h4{
+	font-weight: 600;
+	padding-bottom: 3rem;
+}
+
+.banner .button{
+	width: 100%;
+	text-align: center;
+	padding: 2rem 0;
+	font-size: 2.5rem;
+	background-color: hsl(177, 0%, 24%);
+	color: white; 
+}
+
+@media only screen and (max-width: 1024px){
+	.banner{
+		flex-direction: column;
+	}
+
+	.banner .photo img{
+		width: 100%;
+		padding: 0 0 4rem 0;
+	}
+
+	.text1{
+		width: 96%;
+	}
+
+	.name/* h1 */{
+		font-size: 5.8rem;
+		padding-left: 2rem;
+	}
+
+	.banner .text1 h4{
+		color: hsl(177, 0%, 28%);
+		font-size: 3.3rem;
+		padding-left: 2rem;
+	}
+
+	.banner .button{
+		width: 96%;
+		justify-content: center;
+		align-items: center;
+		font-weight: 600;
+		background-color: hsl(177, 0%, 44%);
+		font-size: 2.8rem;
+		margin: auto;
+		padding: 2rem 0;
+		/*margin-left: 2rem;*/
+	}
+
+}
