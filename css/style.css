@@ -19,7 +19,7 @@ html{
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
-	margin: 0.25rem 3rem;
+	padding: 1rem 3rem 0rem 3rem;
 }
 
 .header .logo{
@@ -129,18 +129,19 @@ html{
 	}
 
 	.text1{
-		width: 96%;
+		width: 94%;
+		padding-left: 2rem;
+		padding-right: 2rem;
 	}
 
 	.name/* h1 */{
-		font-size: 5.8rem;
-		padding-left: 2rem;
+		font-size: 5.6rem;
 	}
 
 	.banner .text1 h4{
 		color: hsl(177, 0%, 28%);
-		font-size: 3.3rem;
-		padding-left: 2rem;
+		font-size: 3.1rem;
+		margin-right: 0;
 	}
 
 	.banner .button{
@@ -149,10 +150,11 @@ html{
 		align-items: center;
 		font-weight: 600;
 		background-color: hsl(177, 0%, 44%);
-		font-size: 2.8rem;
+		font-size: 2.6rem;
 		margin: auto;
 		padding: 2rem 0;
-		/*margin-left: 2rem;*/
+		padding-left: 2rem;
+		margin-bottom: 4rem;
 	}
 
 }
