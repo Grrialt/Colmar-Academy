@@ -149,9 +149,9 @@ p/* Name for paragraphs */{
 	}
 
 	.text1{
-		width: 94%;
-		padding-left: 2rem;
+		width: 90%;
 		padding-right: 2rem;
+		padding-left: 4%;
 	}
 
 	.name/* h1 */{
@@ -274,7 +274,7 @@ p/* Name for paragraphs */{
 
 	.orientation, .campus, .lecture{
 		border: none;
-		width: 96%;
+		width: 100%;
 		flex-direction: column;
 		align-items: flex-start;
 		padding-bottom: 4rem;
@@ -283,10 +283,12 @@ p/* Name for paragraphs */{
 	.orientation img, .campus img, .lecture img{
 		width: 90%;
 		height: auto;
+		margin: 2rem auto;
 	}
 
 	.text3, .text4, .text5{
-		width: 100%;
+		width: 95%;
 		line-height: 1.2;
+		padding-left: 5%;
 	}
 }
