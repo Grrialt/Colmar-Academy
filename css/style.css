@@ -57,7 +57,7 @@ p/* Name for paragraphs */{
 	height: 8rem;
 	width: 100%;
 	text-align: center;
-	background-color: hsl(177, 0%, 100%);
+	background-color: white;
 }
 
 .header .computer-head{
@@ -110,11 +110,12 @@ p/* Name for paragraphs */{
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
-		margin: 2rem 0;
+		padding: 2rem 0;
 	}
 
 	.head img{
 		height: 5rem;
+		padding-bottom: 1rem;
 	}
 }
 
