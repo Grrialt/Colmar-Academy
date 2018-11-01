@@ -1,8 +1,9 @@
 /*background-color: hsl(177, 0%, 81%);*/
-
+/*color: hsl(177, 0%, 28%);*/
 html{
 	font-family: "Raleway";
 	font-size: 8px;
+	background-color: hsl(177, 0%, 95%);
 }
 
 .mobile{
@@ -56,6 +57,7 @@ p/* Name for paragraphs */{
 	height: 8rem;
 	width: 100%;
 	text-align: center;
+	background-color: hsl(177, 0%, 100%);
 }
 
 .header .computer-head{
@@ -207,8 +209,8 @@ p/* Name for paragraphs */{
 }
 
 .practising{
-	border: 0 1px 0 0;
-	border-color: hsl(177, 0%, 28%);
+	border-right: 0.1rem solid;
+	border-color: hsl(177, 0%, 78%);
 	width: 55%;
 	display: flex;
 	flex-direction: column;
@@ -327,7 +329,7 @@ p/* Name for paragraphs */{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	padding: 0rem 9rem;
+	padding: 0rem 9rem 4rem 9rem;
 }
 
 .software, .computer-art, .design, .data, .business, .marketing{
@@ -392,5 +394,83 @@ p/* Name for paragraphs */{
 	.text10:active,
 	.text11:active{
 		background-color: hsl(177, 0%, 57%);
+	}
+}
+
+/*List 4*/
+.list4{
+	color: hsl(177, 0%, 28%);
+}
+
+.list4 h2{
+	padding: 5rem 0;
+	text-align: center;
+}
+
+.computer-list-4{
+	display: flex;
+	flex-direction: row;
+}
+.reimagine-urban{
+	width: 55%;
+	display: flex;
+	flex-direction: column;
+	margin: 0 2rem;
+	padding-bottom: 4rem;
+}
+
+.reimagine-urban video{	
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.text12 h3{
+	padding: 3rem 0;
+}
+
+.group-of-two{
+	display: flex;
+	flex-direction: column;
+	float: right;
+	width: 45%;
+}
+
+.fisma, .now-and-then{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.fisma img, .now-and-then img{
+	width: 30%;
+	height: 30%;
+	margin: 2rem;
+}
+
+.text13, .text14{
+	width: 70%;
+}
+
+.text13 p, .text14 p{
+	padding: 1rem 0;
+}
+
+
+.fisma:hover, .now-and-then:hover{
+	background-color: hsl(177, 0%, 81%);
+}
+
+@media only screen and (max-width: 1024px){
+	.computer-list-4{
+		display: none;
+	}
+
+	.list-4{
+		display: contents;
+	}
+
+	.list-4 video{
+		width: 100%;
 	}
 }
