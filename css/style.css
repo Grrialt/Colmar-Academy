@@ -317,17 +317,19 @@ p/* Name for paragraphs */{
 .first-line{
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
 	padding: 0rem 9rem 2rem 9rem;
 }
 
 .second-line{
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
 	padding: 0rem 9rem;
 }
 
 .software, .computer-art, .design, .data, .business, .marketing{
-	width: 30%;
+	width: 28%;
 	background-color: white;
 	text-align: left;
 }
