@@ -7,6 +7,33 @@ html{
 	display: none;
 }
 
+.name /* h1 */ {
+	font-weight: 800;
+	font-size: 6rem;
+	padding-bottom: 4rem;
+}
+
+h2/* Name #2 */{
+	font-weight: 800;
+	font-size: 5rem;
+}
+
+h3/* Name #3 */{
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-size: 3.5rem;
+}
+
+h6/* Name #6 */{
+	font-weight: 600;
+	font-size: 1.5rem;
+}
+
+p/* Name for paragraphs */{
+	font-weight: 400;
+	font-size: 2rem;
+}
+
 /* Header */
 .header{
 	height: 8rem;
@@ -95,12 +122,6 @@ html{
 	font-size: 3rem;
 	margin-right: 15rem;
 	color: hsl(177, 0%, 24%);
-}
-
-.name /* h1 */ {
-	font-weight: 800;
-	font-size: 6rem;
-	padding-bottom: 4rem;
 }
 
 .banner .text1 h4{
@@ -194,22 +215,6 @@ html{
 	padding: 4rem 0;
 }
 
-h2/* Name #2 */{
-	font-weight: 800;
-	font-size: 5rem;
-}
-
-p/* Name for paragraphs */{
-	font-family: 'Roboto';
-	font-weight: 400;
-	font-size: 2rem;
-}
-
-h6/* Name #6 */{
-	font-weight: 600;
-	font-size: 1.5rem;
-}
-
 /*Text from right side*/
 .group-of-three{
 	display: flex;
@@ -240,12 +245,6 @@ h6/* Name #6 */{
 	padding: 1rem 0;
 }
 
-h3/* Name #3 */{
-	font-family: 'Roboto';
-	font-weight: 500;
-	font-size: 3.5rem;
-}
-
 .read-more{
 	font-family: 'Roboto';
 	text-decoration: none;
@@ -256,4 +255,40 @@ h3/* Name #3 */{
 
 .orientation:hover, .campus:hover, .lecture:hover{
 	background-color: hsl(177, 0%, 81%);
+}
+
+@media only screen and (max-width: 1024px){
+	.list2 .computer-list2{
+		display: none;
+	}
+
+	.list-2{
+		display: flex;
+		border: 0.1rem  solid;
+		border-color: hsl(177, 0%, 81%);
+	}
+
+	.group-of-three{
+		width: 100%;
+	}
+
+	.orientation, .campus, .lecture{
+		border: none;
+		width: 96%;
+		flex-direction: column;
+		align-items: flex-start;
+		padding-left: 2rem;
+		padding-bottom: 4rem;
+	}
+
+	.orientation img, .campus img, .lecture img{
+		width: 90%;
+		height: auto;
+	}
+
+	.text3, .text4, .text5{
+		width: 100%;
+		padding-left: 4rem;
+		line-height: 1.2;
+	}
 }
