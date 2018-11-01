@@ -157,6 +157,16 @@ p/* Name for paragraphs */{
 	color: white; 
 }
 
+.banner .button a{
+	color: white;
+	text-decoration: none;
+}
+
+.banner .button:active{
+	background-color: hsl(177, 0%, 57%);
+}
+
+
 @media only screen and (max-width: 1024px){
 	.banner{
 		flex-direction: column;
@@ -472,5 +482,53 @@ p/* Name for paragraphs */{
 
 	.list-4 video{
 		width: 100%;
+	}
+}
+
+/* Footer */
+footer{
+	height: 9rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	border-top: 0.1rem solid;
+	border-color: hsl(177, 0%, 78%); 
+}
+
+footer p{
+	font-size: 1.5rem;
+	color: hsl(177, 0%, 12%);
+}
+
+.copyright{
+	display: flex;
+	flex-direction: row;
+	padding: 2rem 3rem;
+}
+
+.computer-footer{
+	width: 11rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 2rem;
+}
+
+.terms nav a{
+	display: flex;
+	text-decoration: none;
+	color: hsl(177, 0%, 12%);
+	font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 1024px){
+	.computer-footer{
+		display: none;
+	}
+
+	footer{
+		align-items: flex-end;
+		color: hsl(177, 0%, 6%);
 	}
 }
