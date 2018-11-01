@@ -1,3 +1,5 @@
+/*background-color: hsl(177, 0%, 81%);*/
+
 html{
 	font-family: "Raleway";
 	font-size: 8px;
@@ -349,4 +351,46 @@ p/* Name for paragraphs */{
 
 .text6 p, .text7 p, .text8 p, .text9 p, .text10 p, .text11 p{
 	padding-bottom: 3rem;
+}
+
+@media only screen and (max-width: 1024px){
+	.list3{
+		background-color: white;
+		border: 0.1rem  solid;
+		border-top: 0;
+		border-color: hsl(177, 0%, 81%);
+	}
+
+	.list3 .group-of-six{
+		display: none;
+	}
+
+	.list-3{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.list3 h2{
+	padding: 3rem 0 2rem 0;
+	}
+
+	.text6, .text7, .text8, .text9, .text10, .text11{
+		background-color: hsl(177, 0%, 81%);
+		padding: 3rem;
+		margin: 1rem 3rem;
+		text-align: left;
+	}
+
+	.text11{
+		margin-bottom: 4rem;
+	}
+
+	.text6:active,
+	.text7:active,
+	.text8:active,
+	.text9:active,
+	.text10:active,
+	.text11:active{
+		background-color: hsl(177, 0%, 57%);
+	}
 }
