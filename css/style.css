@@ -288,7 +288,6 @@ p/* Name for paragraphs */{
 
 	.text3, .text4, .text5{
 		width: 100%;
-		padding-left: 4rem;
 		line-height: 1.2;
 	}
 }
