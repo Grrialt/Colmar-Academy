@@ -277,7 +277,6 @@ p/* Name for paragraphs */{
 		width: 96%;
 		flex-direction: column;
 		align-items: flex-start;
-		padding-left: 2rem;
 		padding-bottom: 4rem;
 	}
 
