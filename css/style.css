@@ -53,14 +53,14 @@ p/* Name for paragraphs */{
 }
 
 /* Header */
-.header{
+header{
 	height: 8rem;
 	width: 100%;
 	text-align: center;
-	background-color: white;
+	background-color: hsl(51, 100%, 52%);
 }
 
-.header .computer-head{
+header .computer-head{
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -68,33 +68,33 @@ p/* Name for paragraphs */{
 	padding: 1rem 3rem 0rem 3rem;
 }
 
-.header .logo{
+header .logo{
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	
 }
-.header .logo p{
+header .logo p{
 	color: hsl(177, 0%, 61%);
 	font-size: 4rem;
 }
 
-.header .logo img{
+header .logo img{
 	height: 6rem;
 }
 
-.header .logo em{
+header .logo em{
 	font-weight: 600;
 	color: hsl(177, 0%, 12%);
 }
 
-.header .computer-head nav{
+header .computer-head nav{
 	display: flex;
 	flex-direction: row;
 	font-size: 2.5rem;
 }
 
-.header .computer-head nav a{
+header .computer-head nav a{
 	padding-left: 2rem;
 	text-decoration: none;
 	color: hsl(177, 0%, 12%);
@@ -154,19 +154,23 @@ p/* Name for paragraphs */{
 	text-align: center;
 	padding: 2rem 0;
 	font-size: 2.5rem;
-	background-color: hsl(177, 0%, 24%);
-	color: white; 
+	background-color: hsl(51, 96%, 52%);
+	/*color: hsl(177, 0%, 61%);*/
 }
 
 .banner .button a{
-	color: white;
+	color: hsl(177, 0%, 31%);
 	text-decoration: none;
+	font-weight: 600;
 }
 
 .banner .button:active{
 	background-color: hsl(177, 0%, 57%);
 }
 
+.banner .button a:active{
+	color: hsl(51, 100%, 50%);
+}
 
 @media only screen and (max-width: 1024px){
 	.banner{
@@ -199,7 +203,7 @@ p/* Name for paragraphs */{
 		justify-content: center;
 		align-items: center;
 		font-weight: 600;
-		background-color: hsl(177, 0%, 44%);
+		background-color: hsl(51, 96%, 52%);
 		font-size: 2.6rem;
 		margin: auto;
 		padding: 2rem 0;
@@ -225,6 +229,7 @@ p/* Name for paragraphs */{
 	width: 55%;
 	display: flex;
 	flex-direction: column;
+	background-color: hsl(51, 100%, 54%);
 }
 
 #man-is-reading{
@@ -366,6 +371,14 @@ p/* Name for paragraphs */{
 	padding-bottom: 3rem;
 }
 
+.option:hover {
+  background-color: hsl(51, 96%, 52%);
+}
+
+.option:hover img {
+  opacity: 0.5;
+}
+
 @media only screen and (max-width: 1024px){
 	.list3{
 		background-color: white;
@@ -494,7 +507,8 @@ footer{
 	justify-content: space-between;
 	align-items: flex-start;
 	border-top: 0.1rem solid;
-	border-color: hsl(177, 0%, 78%); 
+	border-color: hsl(177, 0%, 78%);
+	background-color: hsl(51, 100%, 54%); 
 }
 
 footer p{
